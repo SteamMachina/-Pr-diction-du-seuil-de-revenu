@@ -1,1 +1,2 @@
-# -Pr-diction-du-seuil-de-revenu
+#Prédiction du seuil de revenu de 50 000 $
+Projet de machine learning visant à identifier les facteurs déterminants du niveau de revenu à partir de données de recensement, en particulier pour prédire si le revenu annuel dépasse 50 000 $, seuil souvent associé à la classe moyenne. J'ai utilisé l'algorithme K-means pour le clustering des individus selon leurs caractéristiques, puis entraîné des modèles de classification (arbres de décision, forêts aléatoires, perceptron multicouche) pour affiner la prédiction. Le projet intègre la préparation des données, l'encodage des variables, la mise à l’échelle, ainsi que l’évaluation des performances via précision, rappel, score F1 et matrice de confusion.
